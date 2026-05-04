@@ -28,11 +28,12 @@ This commands includes
 
 ## Output
 
-```
-
+<BR>
 Microsoft Windows [Version 10.0.26200.8246]
 (c) Microsoft Corporation. All rights reserved.
 
+
+```
 
 C:\Users\sarve>ipconfig
 
