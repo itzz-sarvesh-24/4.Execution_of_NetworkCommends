@@ -59,9 +59,10 @@ Wireless LAN adapter Wi-Fi:
    Autoconfiguration IPv4 Address. . : 169.254.144.37
    Subnet Mask . . . . . . . . . . . : 255.255.0.0
    Default Gateway . . . . . . . . . : fe80::eedd:24ff:fe3d:ced5%11
-
+```
 -------------------------------------------------------------------------------------------------------
-
+### ping google.com
+```
 C:\Users\sarve>ping google.com
 
 Pinging google.com [2404:6800:4007:836::200e] with 32 bytes of data:
@@ -76,7 +77,9 @@ Approximate round trip times in milli-seconds:
     Minimum = 81ms, Maximum = 208ms, Average = 145ms
 
 -------------------------------------------------------------------------------------------------------
-
+```
+### Tracert
+```
 C:\Users\sarve>tracert google.com
 
 Tracing route to google.com [2404:6800:4007:836::200e]
@@ -90,7 +93,9 @@ over a maximum of 30 hops:
 Trace complete.
 
 -------------------------------------------------------------------------------------------------------
-
+```
+### netstat 
+```
 C:\Users\sarve>netstat
 
 Active Connections
@@ -143,7 +148,9 @@ Active Connections
   TCP    [2403:8600:c090:42:0:4ff:fff6:3d70]:64967  lcbomo-in-f94:https    ESTABLISHED
 
 ----------------------------------------------------------------------------------------------------------------
-
+```
+### Getmac
+```
 C:\Users\sarve>getmac
 
 Physical Address    Transport Name
@@ -151,7 +158,9 @@ Physical Address    Transport Name
 60-FF-9E-E1-37-B6   \Device\Tcpip_{72E4DC5F-812B-41A3-9BF4-0BFAC0800C65}
 
 ---------------------------------------------------------------------------------------------------------------
-
+```
+### Ipconfig/all
+```
 C:\Users\sarve>ipconfig /all
 
 Windows IP Configuration
@@ -203,7 +212,9 @@ Wireless LAN adapter Wi-Fi:
                                        saveetha.in
 
 -------------------------------------------------------------------------------------------------------
-
+```
+### Ipconfig /flushdns
+```
 C:\Users\sarve>ipconfig /flushdns
 
 Windows IP Configuration
@@ -211,7 +222,9 @@ Windows IP Configuration
 Successfully flushed the DNS Resolver Cache.
 
 -------------------------------------------------------------------------------------------------------
-
+```
+### nslookup google.com
+```
 C:\Users\sarve>nslookup google.com
 Server:  UnKnown
 Address:  2403:8600:c090:42:a000::200
@@ -222,7 +235,9 @@ Addresses:  2404:6800:4007:836::200e
           142.251.43.46
 
 -------------------------------------------------------------------------------------------------------
-
+```
+### pathping google.com
+```
 C:\Users\sarve>pathping google.com
 
 Tracing route to google.com [2404:6800:4007:836::200e]
@@ -240,7 +255,9 @@ Hop  RTT    Lost/Sent = Pct  Lost/Sent = Pct  Address
 Trace complete.
 
 -------------------------------------------------------------------------------------------------------
-
+```
+### arp -a
+```
 C:\Users\sarve>arp -a
 
 Interface: 169.254.144.37 --- 0xb
