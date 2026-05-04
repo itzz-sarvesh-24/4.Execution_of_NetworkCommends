@@ -32,8 +32,7 @@ This commands includes
 
 ### (c) Microsoft Corporation. All rights reserved.
 
-<BR>
-IP Configuration
+#### IP Configuration
 
 ```
 
