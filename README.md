@@ -30,8 +30,11 @@ This commands includes
 
 <BR>
 Microsoft Windows [Version 10.0.26200.8246]
+<BR>
 (c) Microsoft Corporation. All rights reserved.
 
+<BR>
+IP Configuration
 
 ```
 
