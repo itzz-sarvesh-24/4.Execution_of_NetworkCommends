@@ -28,6 +28,8 @@ This commands includes
 
 ## Output
 
+```
+
 Microsoft Windows [Version 10.0.26200.8246]
 (c) Microsoft Corporation. All rights reserved.
 
@@ -252,7 +254,7 @@ Interface: 169.254.144.37 --- 0xb
   239.255.255.250       01-00-5e-7f-ff-fa     static
   255.255.255.255       ff-ff-ff-ff-ff-ff     static
 
-
+```
 
 ## Result
 Thus Execution of Network commands Performed 
