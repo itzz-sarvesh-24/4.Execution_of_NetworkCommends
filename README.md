@@ -32,8 +32,8 @@ This commands includes
 
 ### (c) Microsoft Corporation. All rights reserved.
 ---------------------------------------------------------------------------------------------------------------------------
-### IP Configuration
 
+### ipconfig
 ```
 
 C:\Users\sarve>ipconfig
@@ -60,7 +60,6 @@ Wireless LAN adapter Wi-Fi:
    Subnet Mask . . . . . . . . . . . : 255.255.0.0
    Default Gateway . . . . . . . . . : fe80::eedd:24ff:fe3d:ced5%11
 ```
--------------------------------------------------------------------------------------------------------
 ### ping google.com
 ```
 C:\Users\sarve>ping google.com
@@ -76,9 +75,8 @@ Ping statistics for 2404:6800:4007:836::200e:
 Approximate round trip times in milli-seconds:
     Minimum = 81ms, Maximum = 208ms, Average = 145ms
 
--------------------------------------------------------------------------------------------------------
 ```
-### Tracert
+### tracert google.com
 ```
 C:\Users\sarve>tracert google.com
 
@@ -92,7 +90,6 @@ over a maximum of 30 hops:
 
 Trace complete.
 
--------------------------------------------------------------------------------------------------------
 ```
 ### netstat 
 ```
@@ -146,8 +143,6 @@ Active Connections
   TCP    [2403:8600:c090:42:0:4ff:fff6:3d70]:64606  [2403:8600:80c0:4a::e62:100a]:https  ESTABLISHED
   TCP    [2403:8600:c090:42:0:4ff:fff6:3d70]:64880  g2600-140f-5e00-0014-0000-0000-17d3-3c28:https  ESTABLISHED
   TCP    [2403:8600:c090:42:0:4ff:fff6:3d70]:64967  lcbomo-in-f94:https    ESTABLISHED
-
-----------------------------------------------------------------------------------------------------------------
 ```
 ### Getmac
 ```
@@ -157,9 +152,8 @@ Physical Address    Transport Name
 =================== ==========================================================
 60-FF-9E-E1-37-B6   \Device\Tcpip_{72E4DC5F-812B-41A3-9BF4-0BFAC0800C65}
 
----------------------------------------------------------------------------------------------------------------
 ```
-### Ipconfig/all
+### ipconfig/all
 ```
 C:\Users\sarve>ipconfig /all
 
@@ -210,10 +204,8 @@ Wireless LAN adapter Wi-Fi:
    NetBIOS over Tcpip. . . . . . . . : Enabled
    Connection-specific DNS Suffix Search List :
                                        saveetha.in
-
--------------------------------------------------------------------------------------------------------
 ```
-### Ipconfig /flushdns
+### ipconfig /flushdns
 ```
 C:\Users\sarve>ipconfig /flushdns
 
@@ -221,7 +213,6 @@ Windows IP Configuration
 
 Successfully flushed the DNS Resolver Cache.
 
--------------------------------------------------------------------------------------------------------
 ```
 ### nslookup google.com
 ```
@@ -234,7 +225,7 @@ Name:    google.com
 Addresses:  2404:6800:4007:836::200e
           142.251.43.46
 
--------------------------------------------------------------------------------------------------------
+
 ```
 ### pathping google.com
 ```
@@ -254,7 +245,7 @@ Hop  RTT    Lost/Sent = Pct  Lost/Sent = Pct  Address
 
 Trace complete.
 
--------------------------------------------------------------------------------------------------------
+
 ```
 ### arp -a
 ```
